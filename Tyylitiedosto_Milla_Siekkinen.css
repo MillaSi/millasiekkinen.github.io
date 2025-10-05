@@ -59,7 +59,7 @@ ul.content-list {
   color: #2D2D2D;
 }
 
-section {
+main {
     text-align: center;
     font-size: 18px;
     color: #2D2D2D;
@@ -125,4 +125,5 @@ footer {
     font-size: 15px;
   }
     
+
 }
