@@ -1,0 +1,128 @@
+/*
+div {
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+    */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+    font-family: "Playfair Display", serif;
+    background-color:#F8F9FA ;
+}
+
+header {
+    background-image: url("./etusivu1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke;
+    padding:80px 10px 150px 10px;
+    margin: 0px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  background-color: #002182;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  display: block;
+  color: whitesmoke;
+  padding: 10px 14px 10px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #F4978E;
+  color:#2D2D2D;
+}
+
+ul.content-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  color: #2D2D2D;
+}
+
+section {
+    text-align: center;
+    font-size: 18px;
+    color: #2D2D2D;
+    margin: 0 auto;
+    padding: 10px 10px 30px 10px;
+    width: 40%;
+}
+
+img {
+  width: auto; height: 300px;
+  display: block;
+  margin: auto;
+}
+
+button {
+    background-color:  #002182;
+    color: whitesmoke;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: #F4978E;
+}
+
+footer {
+    background-color: #002182;  
+     margin: 0px;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    text-align: center;
+    color: #252422;
+    font-size: 16px;
+    width: 50%;
+    margin: 0 auto;
+     }
+  header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 50px 10px 150px 10px;
+    }
+
+  nav ul {
+    font-size: 15px;
+  }
+
+  img {
+  width: auto; height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+    
+}
