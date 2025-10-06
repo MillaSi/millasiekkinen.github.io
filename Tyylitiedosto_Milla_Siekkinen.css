@@ -68,6 +68,10 @@ main {
     width: 40%;
 }
 
+main, section {
+  text-align: center;
+}
+
 img {
   width: auto; height: 300px;
   display: block;
@@ -131,4 +135,5 @@ footer {
     
 
 }
+
 
