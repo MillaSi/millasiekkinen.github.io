@@ -92,7 +92,8 @@ button {
 
 footer {
     background-color: #002182;  
-     margin: 0px;
+    margin: 0px;
+    margin-top: auto;
     text-align: center;
     font-size: 15px;
     padding: 20px;
@@ -103,12 +104,12 @@ footer {
   section {
     text-align: center;
     color: #252422;
-    font-size: 16px;
+    font-size: 20px;
     width: 50%;
     margin: 0 auto;
      }
   header h1 {
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     color: whitesmoke;
     padding: 50px 10px 150px 10px;
@@ -130,10 +131,12 @@ footer {
   }
 
   footer {
-    font-size: 15px;
+    font-size: 13px;
+    margin-top: auto;
   }
     
 
 }
+
 
 
