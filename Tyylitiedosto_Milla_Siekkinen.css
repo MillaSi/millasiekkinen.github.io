@@ -65,12 +65,15 @@ main {
     color: #2D2D2D;
     margin: 0 auto;
     padding: 10px 10px 30px 10px;
-    width: 100%;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 main, section {
+    width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
   text-align: center;
+    
 }
 
 img {
@@ -139,6 +142,7 @@ footer {
     
 
 }
+
 
 
 
