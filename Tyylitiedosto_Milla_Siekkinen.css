@@ -117,14 +117,14 @@ footer {
   section {
     text-align: center;
     color: #252422;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 0 auto;
      }
     
       main {
     text-align: center;
     color: #252422;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 0 auto;
      }
     
@@ -151,14 +151,15 @@ footer {
   }
 
   footer {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     margin-top: auto;
   }
 
    button {
-       font-size: 0.8rem;
+       font-size: 0.1.2rem;
 
 }
+
 
 
 
