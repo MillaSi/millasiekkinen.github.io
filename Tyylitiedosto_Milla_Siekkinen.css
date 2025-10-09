@@ -108,29 +108,49 @@ footer {
 
 @media only screen and (max-width: 600px) {
     
-  section {
+section {
     text-align: center;
     color: #252422;
     font-size: 1.3rem;
     margin: 0 auto;
      }
     
-      main {
+main {
     text-align: center;
     color: #252422;
     font-size: 1.3rem;
     margin: 0 auto;
      }
     
-  header h1 {
+header h1 {
     font-size: 30px;
     text-align: center;
     color: whitesmoke;
     padding: 50px 10px 150px 10px;
     }
 
-  nav ul {
+nav ul {
     font-size: 20px;
+    background-color: #002182;
+    flex-direction: column;
+    align-items: stretch;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+nav ul li a {
+    display: block;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+nav ul li a:hover {
+    background-color: #F4978E;
+    color: #2D2D2D;
   }
 
 .responsive {
@@ -138,13 +158,13 @@ footer {
   height: auto;
 }
 
-  img {
+img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
   }
 
-  footer {
+footer {
     font-size: 1.0rem;
     margin-top: auto;
   }
@@ -153,6 +173,7 @@ button {
     font-size: 15px;
 }
 }
+
 
 
 
