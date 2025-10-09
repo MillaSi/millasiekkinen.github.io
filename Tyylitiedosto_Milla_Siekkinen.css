@@ -132,8 +132,9 @@ header h1 {
 nav ul {
     font-size: 20px;
     background-color: #002182;
-    flex-direction: column;
-    align-items: stretch;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -173,6 +174,7 @@ button {
     font-size: 15px;
 }
 }
+
 
 
 
