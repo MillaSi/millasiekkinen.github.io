@@ -114,6 +114,13 @@ footer {
     margin: 0 auto;
      }
     
+      main {
+    text-align: center;
+    color: #252422;
+    font-size: 1.2rem;
+    margin: 0 auto;
+     }
+    
   header h1 {
     font-size: 30px;
     text-align: center;
@@ -122,7 +129,7 @@ footer {
     }
 
   nav ul {
-    font-size: 18px;
+    font-size: 20px;
   }
 
 .responsive {
@@ -142,7 +149,7 @@ footer {
   }
 
    button {
-       font-size: 0.8rem;
+       font-size: 0.7rem;
 
 }
 
